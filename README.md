@@ -80,4 +80,3 @@ export default {
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for a history of changes to this integration.
-<sup>Built with [`Lightrix/NPM`](https://github.com/Lightrix/NPM).</sup>
