@@ -41,7 +41,7 @@ pnpx astro add astro-query
 
 First, install the `astro-query` integration like so:
 
-```
+```sh
 npm install -D -E astro-query
 ```
 
