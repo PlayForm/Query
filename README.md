@@ -74,7 +74,7 @@ export default {
 };
 ```
 
-[astro-query]: https://npmjs.org/astro-query
+[astro-query]: HTTPS://NPMJS.Org/astro-query
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog
