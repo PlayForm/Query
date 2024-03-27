@@ -1,4 +1,4 @@
-# 👉🏻 [astro-query]
+# 👉🏻 [AstroQuery]
 
 This **[Astro integration][astro-integration]** allows you to use SQL queries
 inside your components using PRQL.
@@ -74,7 +74,7 @@ export default {
 };
 ```
 
-[astro-query]: https://npmjs.org/astro-query
+[AstroQuery]: https://npmjs.org/astro-query
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog
