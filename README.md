@@ -1,4 +1,4 @@
-# 👉🏻 [AstroQuery]
+# 👉🏻 [QueryAstro]
 
 This **[Astro integration][astro-integration]** allows you to use SQL queries
 inside your components using PRQL.
@@ -16,33 +16,33 @@ command will:
 1. (Optionally) Install all necessary dependencies and peer dependencies
 2. (Also optionally) Update your `astro.config.*` file to apply this integration
 
-To install `astro-query`, run the following from your project directory and
+To install `query-astro`, run the following from your project directory and
 follow the prompts:
 
 Using NPM:
 
 ```sh
-npx astro add astro-query
+npx astro add query-astro
 ```
 
 Using Yarn:
 
 ```sh
-yarn astro add astro-query
+yarn astro add query-astro
 ```
 
 Using PNPM:
 
 ```sh
-pnpx astro add astro-query
+pnpx astro add query-astro
 ```
 
 ### Install dependencies manually
 
-First, install the `astro-query` integration like so:
+First, install the `query-astro` integration like so:
 
 ```sh
-npm install -D -E astro-query
+npm install -D -E query-astro
 ```
 
 Then, apply this integration to your `astro.config.*` file using the
@@ -51,7 +51,7 @@ Then, apply this integration to your `astro.config.*` file using the
 **`astro.config.ts`**
 
 ```ts
-import query from "astro-query";
+import query from "query-astro";
 
 export default { integrations: [query()] };
 ```
@@ -63,7 +63,7 @@ export default { integrations: [query()] };
 **`astro.config.ts`**
 
 ```ts
-import query from "astro-query";
+import query from "query-astro";
 
 export default {
 	integrations: [
@@ -74,7 +74,7 @@ export default {
 };
 ```
 
-[AstroQuery]: https://npmjs.org/astro-query
+[QueryAstro]: https://npmjs.org/query-astro
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog
