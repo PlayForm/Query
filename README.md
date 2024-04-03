@@ -1,4 +1,4 @@
-# 👉🏻 [QueryAstro]
+# 👉🏻 [Query]
 
 This **[Astro integration][astro-integration]** allows you to use SQL queries
 inside your components using PRQL.
@@ -16,33 +16,33 @@ command will:
 1. (Optionally) Install all necessary dependencies and peer dependencies
 2. (Also optionally) Update your `astro.config.*` file to apply this integration
 
-To install `query-astro`, run the following from your project directory and
+To install `@playform/query`, run the following from your project directory and
 follow the prompts:
 
 Using NPM:
 
 ```sh
-npx astro add query-astro
+npx astro add @playform/query
 ```
 
 Using Yarn:
 
 ```sh
-yarn astro add query-astro
+yarn astro add @playform/query
 ```
 
 Using PNPM:
 
 ```sh
-pnpx astro add query-astro
+pnpx astro add @playform/query
 ```
 
 ### Install dependencies manually
 
-First, install the `query-astro` integration like so:
+First, install the `@playform/query` integration like so:
 
 ```sh
-npm install -D -E query-astro
+npm install -D -E @playform/query
 ```
 
 Then, apply this integration to your `astro.config.*` file using the
@@ -51,7 +51,7 @@ Then, apply this integration to your `astro.config.*` file using the
 **`astro.config.ts`**
 
 ```ts
-import query from "query-astro";
+import query from "@playform/query";
 
 export default { integrations: [query()] };
 ```
@@ -63,7 +63,7 @@ export default { integrations: [query()] };
 **`astro.config.ts`**
 
 ```ts
-import query from "query-astro";
+import query from "@playform/query";
 
 export default {
 	integrations: [
@@ -74,7 +74,7 @@ export default {
 };
 ```
 
-[QueryAstro]: https://npmjs.org/query-astro
+[Query]: https://npmjs.org/@playform/query
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog
