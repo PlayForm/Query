@@ -74,7 +74,7 @@ export default {
 };
 ```
 
-[Query]: https://npmjs.org/@playform/query
+[Query.]: https://npmjs.org/@playform/query
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog
