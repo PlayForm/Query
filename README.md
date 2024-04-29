@@ -1,4 +1,4 @@
-# 👉🏻 [Query —]
+# 👉🏻 [Query] —
 
 This **[Astro integration][astro-integration]** allows you to use SQL queries
 inside your components using PRQL.
@@ -74,7 +74,7 @@ export default {
 };
 ```
 
-[Query —]: httpS://npmjs.org/@playform/query
+[Query]: HTTPS://npmjs.org/@playform/query
 [astro-integration]: HTTPS://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog
