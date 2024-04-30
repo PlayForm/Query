@@ -1,4 +1,4 @@
-# 👉🏻 [Query] —
+# 👉🏻 — [Query] —
 
 This **[Astro integration][astro-integration]** allows you to use SQL queries
 inside your components using PRQL.
